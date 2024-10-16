@@ -8,16 +8,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
 }
 
 #container {
     background-color: salmon;
-    height: 425px;
+    height: 50%;
     width: 300px;
     color: white;
-    margin: auto;
+    margin-top: 25px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -81,4 +81,12 @@ button {
     font-weight: 700;
     font-size: medium;
     font-family: 'Cambria', 'Georgia', 'Serif';
+}
+
+.err{
+    display: none;
+    color: black;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: large;
 }
