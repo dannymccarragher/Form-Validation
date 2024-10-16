@@ -16,7 +16,7 @@ document.getElementById('account-form').onsubmit = function() {
     } else if (email.includes('@') && email.includes('.')) {
         document.getElementById('err-email').style.display = "none";
     } else {
-        document.getElementById('err-email').style.display = "inline";
+        document.getElementById('email-format-err').style.display = "inline";
         isValid = false;
     }
 
